@@ -32,12 +32,21 @@ body {
   transition: 0.3s;
 
   animation: glowPulse 2s infinite alternate;
+}
+
+/* AGORA SIM separado corretamente */
 @keyframes glowPulse {
   from {
-    box-shadow: 0 0 10px #d18cf0;
+    box-shadow: 
+      0 0 10px #d18cf0,
+      0 0 20px rgba(209,140,240,0.6),
+      0 0 40px rgba(209,140,240,0.3);
   }
   to {
-    box-shadow: 0 0 25px #d18cf0;
+    box-shadow: 
+      0 0 20px #d18cf0,
+      0 0 40px rgba(209,140,240,0.8),
+      0 0 70px rgba(209,140,240,0.5);
   }
 }
   
