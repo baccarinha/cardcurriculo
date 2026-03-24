@@ -19,28 +19,19 @@ body {
   width: 340px;
   padding: 25px;
   text-align: center;
-
-  background: #111; /* card escuro */
-
+  background: #111;
   border-radius: 15px;
-
-  /* ✨ BORDA NEON */
   border: 1px solid #d18cf0;
 
-  /* ✨ GLOW */
   box-shadow: 
     0 0 10px #d18cf0,
     0 0 20px rgba(209,140,240,0.6),
     0 0 40px rgba(209,140,240,0.3);
 
   color: #fff;
-
   transition: 0.3s;
-}
-.card {
-  animation: glowPulse 2s infinite alternate;
-}
 
+  animation: glowPulse 2s infinite alternate;
 @keyframes glowPulse {
   from {
     box-shadow: 0 0 10px #d18cf0;
@@ -49,6 +40,7 @@ body {
     box-shadow: 0 0 25px #d18cf0;
   }
 }
+  
 /* FOTO */
 .foto {
   width: 100px;
