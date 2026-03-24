@@ -242,3 +242,70 @@ body {
 .btn:active {
   transform: scale(0.97);
 }
+
+
+/* SUAVIDADE GLOBAL */
+* {
+  transition: all 0.25s ease;
+}
+
+/* CARD COM VIDA */
+.card {
+  box-shadow: 
+    0 10px 30px rgba(0,0,0,0.5),
+    0 0 20px rgba(255,77,77,0.2);
+}
+
+/* HOVER DO CARD */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 
+    0 20px 40px rgba(0,0,0,0.6),
+    0 0 30px rgba(255,77,77,0.4);
+}
+
+/* BOX INTERATIVA */
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* HOVER NAS BOX */
+.box:hover {
+  background: #2d3748;
+  transform: translateY(-3px);
+}
+
+/* BOTÕES MAIS PROFISSIONAIS */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  transition: all 0.2s ease;
+}
+
+/* HOVER BOTÕES */
+.btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  opacity: 1;
+}
+
+/* CLIQUE (efeito pressionado) */
+.btn:active {
+  transform: scale(0.96);
+}
+
+/* FOTO COM DESTAQUE */
+.foto {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+/* TOPO COM BRILHO SUAVE */
+.topo {
+  box-shadow: inset 0 -10px 30px rgba(0,0,0,0.5);
+}
