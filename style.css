@@ -76,6 +76,15 @@ body {
   font-size: 13px;
 }
 
+.box i {
+  margin-right: 6px;
+  color: #ff6b6b;
+}
+
+.btn i {
+  margin-right: 6px;
+}
+
 /* BOTÕES */
 .botoes {
   display: flex;
