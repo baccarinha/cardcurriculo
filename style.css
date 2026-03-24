@@ -14,34 +14,74 @@ body {
   background: #0f172a;
 }
 
-/* CARD */
+/* ===== NEON ROXO ===== */
+
+/* CARD COM GLOW */
 .card {
-  width: 350px;
-  background: #111827;
-  border-radius: 20px;
-  overflow: hidden;
-  border: 1px solid #a855f7;
+  border: 1px solid #d18cf0;
 
   box-shadow: 
-    0 10px 30px rgba(0,0,0,0.5),
-    0 0 20px rgba(168,85,247,0.3);
+    0 0 10px #d18cf0,
+    0 0 20px rgba(209,140,240,0.6),
+    0 0 40px rgba(209,140,240,0.3);
 }
 
 /* HOVER CARD */
 .card:hover {
-  transform: translateY(-6px);
   box-shadow: 
-    0 20px 40px rgba(0,0,0,0.6),
-    0 0 30px rgba(168,85,247,0.5);
+    0 0 20px #d18cf0,
+    0 0 40px rgba(209,140,240,0.8),
+    0 0 70px rgba(209,140,240,0.5);
 }
 
-/* TOPO */
+/* TOPO NEON */
 .topo {
-  height: 120px;
-  background: linear-gradient(135deg, #6366f1, #a855f7);
-  box-shadow: inset 0 -10px 30px rgba(0,0,0,0.5);
+  background: linear-gradient(135deg, #a855f7, #d18cf0);
 }
 
+/* TEXTO DESTAQUE */
+.area {
+  color: #d18cf0;
+}
+
+/* ÍCONES */
+.box i {
+  color: #d18cf0;
+  text-shadow: 0 0 8px #d18cf0;
+}
+
+/* ===== BOTÃO PDF NEON ===== */
+.verde {
+  background: transparent;
+  border: 1px solid #d18cf0;
+  color: #d18cf0;
+
+  box-shadow: 
+    0 0 10px #d18cf0,
+    0 0 20px rgba(209,140,240,0.5);
+}
+
+/* HOVER BOTÃO PDF */
+.verde:hover {
+  background: #d18cf0;
+  color: #000;
+
+  box-shadow: 
+    0 0 20px #d18cf0,
+    0 0 40px #d18cf0,
+    0 0 60px rgba(209,140,240,0.6);
+}
+
+/* BOTÃO EMAIL MAIS DISCRETO */
+.cinza {
+  background: #1f2937;
+  border: 1px solid #444;
+}
+
+/* EFEITO CLIQUE */
+.btn:active {
+  transform: scale(0.95);
+}
 /* FOTO */
 .foto-container {
   display: flex;
