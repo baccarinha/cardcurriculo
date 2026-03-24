@@ -34,6 +34,16 @@ body {
     0 0 70px rgba(209,140,240,0.5);
 }
 
+.verde:hover {
+  background: #ef4444;
+
+  box-shadow: 
+    0 0 20px #ef4444,
+    0 0 40px rgba(239,68,68,0.6);
+
+  transform: translateY(-2px) scale(1.05);
+}
+
 /* TOPO NEON */
 .topo {
   background: linear-gradient(135deg, #a855f7, #d18cf0);
@@ -60,15 +70,14 @@ body {
     0 0 20px rgba(209,140,240,0.5);
 }
 
-/* HOVER BOTÃO PDF */
-.verde:hover {
-  background: #d18cf0;
-  color: #000;
+.verde {
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  color: white;
+  border: none;
 
   box-shadow: 
-    0 0 20px #d18cf0,
-    0 0 40px #d18cf0,
-    0 0 60px rgba(209,140,240,0.6);
+    0 0 10px rgba(239,68,68,0.6),
+    0 0 20px rgba(239,68,68,0.4);
 }
 
 /* BOTÃO EMAIL MAIS DISCRETO */
