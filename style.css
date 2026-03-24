@@ -50,7 +50,6 @@ body {
   text-shadow: 0 0 8px #d18cf0;
 }
 
-/* ===== BOTÃO PDF NEON ===== */
 .verde {
   background: transparent;
   border: 1px solid #d18cf0;
@@ -105,11 +104,6 @@ body {
   color: #fff;
 }
 
-.area {
-  color: #a855f7;
-  margin-bottom: 10px;
-}
-
 .descricao {
   font-size: 14px;
   color: #ccc;
@@ -142,7 +136,10 @@ body {
 }
 
 .box i {
-  color: #a855f7;
+  color: #d18cf0;
+  text-shadow: 
+    0 0 5px #d18cf0,
+    0 0 10px #d18cf0;
 }
 
 /* BOTÕES */
