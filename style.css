@@ -78,3 +78,8 @@ h2 {
   background: #27ae60;
   transform: scale(1.05);
 }
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
