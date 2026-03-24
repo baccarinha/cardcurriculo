@@ -14,35 +14,47 @@ body {
   background: linear-gradient(135deg, #1e3c72, #2a5298);
 }
 
+/* CARD */
 .card {
   width: 340px;
-  background: #fff;
   padding: 25px;
-  border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+  /* efeito glass moderno */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.2);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+
+  color: #fff;
 }
 
+/* FOTO */
 .foto {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   margin-bottom: 10px;
+  object-fit: cover;
 }
 
+/* TEXTOS */
 h2 {
   margin-bottom: 5px;
 }
 
 .area {
   font-size: 13px;
-  color: #555;
+  color: #ddd;
   margin-bottom: 15px;
 }
 
 .resumo {
   font-size: 14px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .info p {
@@ -50,12 +62,7 @@ h2 {
   margin-bottom: 5px;
 }
 
-.extra {
-  font-size: 13px;
-  margin: 10px 0;
-  color: #444;
-}
-
+/* BOTÃO */
 .btn {
   display: inline-block;
   margin-top: 15px;
@@ -69,57 +76,5 @@ h2 {
 
 .btn:hover {
   background: #27ae60;
-}
-
-/* ===== CARD ÚNICO ===== */
-.card-unico {
-  width: 350px;
-  margin: auto;
-  padding: 30px;
-  text-align: center;
-
-  /* CENTRALIZA NA TELA */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  /* ESTILO GLASS (igual sections) */
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(12px);
-
-  border-radius: 20px;
-  border: 1px solid rgba(255,255,255,0.1);
-
-  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
-
-  color: #fff;
-}
-
-/* textos */
-.area {
-  font-size: 13px;
-  color: #ddd;
-  margin-bottom: 15px;
-}
-
-.resumo {
-  font-size: 14px;
-  margin-bottom: 15px;
-}
-
-.info p {
-  font-size: 14px;
-  margin-bottom: 5px;
-}
-
-.extra {
-  font-size: 13px;
-  margin: 10px 0;
-  color: #ccc;
-}
-
-/* botão PDF centralizado */
-.card-unico .botao {
-  margin: 15px auto 0;
+  transform: scale(1.05);
 }
